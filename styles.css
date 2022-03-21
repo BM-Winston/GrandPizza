@@ -3,13 +3,15 @@
 }
 
 .b_ground{
+    background-image: url(./images/s1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
     align-items: center;   
     text-align: center;
     padding: 10%;
 }
 
 body{
-    background-image: url(./images/s1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
