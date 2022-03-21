@@ -67,3 +67,13 @@ a.active,a:hover{
     align-items: center;
     text-align: center;
 }
+.social{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#icons{
+    
+    height: 3%;
+}
