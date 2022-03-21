@@ -70,10 +70,17 @@ a.active,a:hover{
 .social{
     display: flex;
     flex-direction: column;
-    
-    
+        
 }
 #icons{
     
     height: 3%;
+
+
 }
+.form-select{
+    text-align: center;
+    align-items: center;
+    width: 15%;
+}
+
