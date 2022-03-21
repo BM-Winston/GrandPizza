@@ -12,7 +12,7 @@
 </head>
 <body>
     <nav class="title">
-        <h1 id="gp">GrandPizza</h1>
+        <h1 id="gp">Gran<span id="color">dP</span>izza </h1>
         <ul>
             <li><a class="active" href="#">Home</a></li>
             <li><a href="#">Contacts</a></li>
@@ -30,6 +30,7 @@
     <br>
 
     <div class="container">
+        <h3>Tastiest delicacies at your disposal</h3>
         <div class="row">
             <div class="col-md-4">
                 <div class="image"> <img src="./images/first.jpeg" /> </div>
@@ -47,50 +48,74 @@
     <br>
     <div class="order">
         <h1>Place your Order!</h1>
-        <select class="form-select col-xs-2" aria-label="Default select example">
-            <option selected>Choose pizza size</option>
-            <option value="1">Small - Ksh 645</option>
-            <option value="2">Medium - Ksh 975</option>
-            <option value="3">Large - Ksh 1305</option>
-        </select>
-        <select class="form-select" aria-label="Default select example">
-            <option selected>Choose your topping</option>
-            <option value="1">Pepperoni</option>
-            <option value="2">Supreme</option>
-            <option value="3">Hawaiian</option>
-        </select>
-        <select class="form-select" aria-label="Default select example">
-            <option selected>Choose crust</option>
-            <option value="1">Crispy</option>
-            <option value="2">Stuffed</option>
-            <option value="3">Gluten-free</option>
-        </select>
-        <label for="inputQuantity" class="order"></label>
-        <input type="number" class="form-control" id="pizzaquantity" placeholder="Quantity">
-        <br>
-        <button>Order</button>
+        <form action="pizza_order">
+            <select class="form-select col-xs-2" aria-label="Default select example" id="size">
+                <option selected>Choose pizza size</option>
+                <option value="1">Small - Ksh 645</option>
+                <option value="2">Medium - Ksh 975</option>
+                <option value="3">Large - Ksh 1305</option>
+            </select>
+            <select class="form-select" aria-label="Default select example" id="topping">
+                <option selected>Choose your topping</option>
+                <option value="1">Pepperoni</option>
+                <option value="2">Supreme</option>
+                <option value="3">Hawaiian</option>
+            </select>
+            <select class="form-select" aria-label="Default select example" id="">
+                <option selected>Choose crust</option>
+                <option value="1">Crispy</option>
+                <option value="2">Stuffed</option>
+                <option value="3">Gluten-free</option>
+            </select>
+            <br>
+        
+            <!-- <label for="inputQuantity" class="order"></label> -->
+                <input type="number" class="form-control" id="pizzaQuantity" placeholder="Quantity">
+            
+        <button class="btn btn-primary" id="place-order">Order!</button>
+        </form>
     </div>
     <br>
     <br>
-    
+    <div class="deliver">
+        <h2>Delivery to your doorstep</h2>
+        <form>
+            <div class="delivery">
+                <label for="fullname">Name</label><br>
+                <input id="name" class="form-control" type="text">
+            </div>
+            <div class="delivery">
+                <label for="phone number">Phone Number</label><br>
+                <input id="number" class="form-control" type="text">
+            </div>
+            <div class="delivery">
+                <label for="location">location</label><br>
+                <input id="name" class="form-control" type="text">
+            </div>
+             <br>
+            <button class="btn btn-primary" id="request delivery">Request</button>
+        </form>
+
+
+    </div>
     <footer>
     <div class="social">
     <h5>Contacts</h5>
     <ul>
-        <li>E-mail:musasiawinston@gmail.comb</li>
+        <li>GrandPizza@gmail.com</li>
         <li>Phone number:+254716546166</li>
-        <li>City:Nairobi</li>
+        <li>Location:Nairobi</li>
     </ul>
-    <h5>Social</h5>
+    <!-- <h5>Social</h5> -->
     
 
-    <div id="icons">
-        <img src="./images/reddit.png" alt="">  
-        <img src="./images/ig.jpeg" alt="">
-        <img src="./images/facebook.png" alt="">
-        <img src="./images/twitter.png" alt="">
-        <img src="./images/you_tube.png" alt="">
-    </div>
+    <!-- <div id="icons">
+        <!-- <img src="./images/reddit.png" alt="">   -->
+        <!-- <img src="./images/ig.jpeg" alt=""> -->
+        <!-- <img src="./images/facebook.png" alt=""> -->
+        <!-- <img src="./images/twitter.png" alt=""> -->
+        <!-- <img src="./images/you_tube.png" alt=""> -->
+    <!-- </div>  -->
     </div>
     
 
