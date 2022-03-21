@@ -12,3 +12,29 @@ body{
     background-size: cover;
     color: white;
 }
+
+.title{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.title ul li{
+    display: flex;
+    display: inline-block;
+    
+    margin-left: 3vw;
+}
+
+.title ul li a{
+    text-decoration: none;
+}
+
+a.active,a:hover{
+    background:rgb(214, 214, 211);
+    transition: 0.2s;
+}
