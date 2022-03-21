@@ -24,7 +24,7 @@
 
 * An access to the Internet
 
-* A wb browser
+* A web browser
 
 ### Installation Process
 
@@ -73,4 +73,4 @@ SOFTWARE.
 
 ## Authors Info
  
-#By Winston Musasia
+# By Winston Musasia
