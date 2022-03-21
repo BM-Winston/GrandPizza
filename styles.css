@@ -1,17 +1,14 @@
-.navbar-brand{
-    color: white;
-}
-
 .b_ground{
     background-image: url(./images/s1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;   
     text-align: center;
-    padding: 10%;
+    padding-top: 20%;
 }
 
 body{
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
