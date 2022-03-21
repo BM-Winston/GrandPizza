@@ -1,19 +1,21 @@
 .b_ground{
     background-image: url(./images/s1.jpeg);
+    height:100vh;
     background-size: cover;
-    background-repeat: no-repeat;
+    
     align-items: center;   
     text-align: center;
-    padding-top: 20%;
+    padding-top: 14%;
+    color: goldenrod;
 }
 
 body{
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+  
+    color:green;
 }
 
 .title{
+    color: aqua;
     display: flex;
     height: 80px;
     align-items: center;
