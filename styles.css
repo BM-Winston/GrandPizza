@@ -1,0 +1,14 @@
+.navbar-brand{
+    color: white;
+}
+
+.b_ground{
+
+   
+}
+
+body{
+    background-image: url(./images/s1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
