@@ -1,5 +1,5 @@
 .b_ground{
-    background-image: url(./images/s6.jpg);
+    background-image: url("images/s6.jpg");
     height:100vh;
     background-size: cover;
     background-position: 100%;
